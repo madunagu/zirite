@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,600;0,700;1,400&display=swap');
+
 html,
 body {
   margin: 0;
@@ -68,7 +70,7 @@ body {
 
 .header {
   height: 100vh;
-  /* padding-top: 100px; */
+  padding-top: 100px;
 }
 
 .header h2,
@@ -80,6 +82,7 @@ h1 {
 .header p {
   color: #fff;
   font-weight: lighter;
+  font-size: 1.3rem;
 }
 
 .header button {
@@ -105,6 +108,10 @@ h1 {
   text-transform: uppercase;
 }
 
+h1, h2, h3 {
+  font-family: 'Titillium Web';
+}
+
 .bottom-bar p {
   font-size: 14px;
   font-weight: lighter;
@@ -116,9 +123,9 @@ body section.noise:before {
   background-image: url(../images/noise.png);
   content: '';
   height: 300%;
-  left: -50%;
+  /* left: -50%; */
   position: absolute;
-  top: -100%;
+  /* top: -70%; */
   width: 300%;
   opacity: .15;
   z-index: 2;
@@ -135,12 +142,12 @@ h1 {
 }
 
 img {
-  border-radius: 12px !important;
   max-width: 100%;
 }
 
 .user-image {
-  width: 100%;
+  width: 50%;
+  border-radius: 50%;
 }
 
 .portfolio {
@@ -239,8 +246,8 @@ span.h4 {
 }
 
 img.icon {
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   margin-right: 10px;
 }
 
@@ -281,6 +288,10 @@ img.icon {
   color: white;
 }
 
+
+.profiles .about {
+  font-weight: 200;
+}
 
 @media screen and (max-width: 500px) {
   #logo {
